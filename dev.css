@@ -1,0 +1,45 @@
+style
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Hello {
+
+    font-size: 35px;
+
+}
+
+.Hi {
+    color: rgb(153, 152, 152);
+}
+
+.gurung {
+    color: rgb(6, 195, 6);
+}
+
+.Man {
+    color: rgb(145, 143, 143);
+}
+
+.Raj {
+    color: rgb(240, 56, 56);
+}
+
+button {
+    background-color: rgb(250, 208, 5);
+    color: white;
+    font-size: bold;
+    cursor: pointer;
+    border-radius: 60px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border: solid;
+}
+
+button:hover {
+    opacity: 0.7;
+    color: black;
+}

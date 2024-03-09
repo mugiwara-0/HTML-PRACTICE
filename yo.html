@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoooo</title>
+    <style>
+        .container{
+            background-color: rgb(11, 11, 70);
+            width: 600px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            cursor: pointer;
+            
+        }
+        .container .box{
+            background-color: rgb(216, 10, 10);
+            width: 10%;
+            height: 15%;
+            border-radius: 50%;
+            animation: up-down ease-in-out 2s infinite alternate-reverse;
+          
+
+        }
+        @keyframes up-down {
+            0%{
+                transform: translateX(50px);
+                background-color: grey;
+            }
+            25%{transform: translateX(-50px)
+               ;
+
+            }
+            50%{
+                transform: translateY(50px) ;
+                
+            }
+            100%{
+                transform: translateY(-50px);
+                
+                background-color: pink;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>

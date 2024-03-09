@@ -1,0 +1,115 @@
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(226, 221, 221) ;
+     padding: 5px;
+     z-index: 100;
+}
+
+.header{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.left-section{
+    
+   
+    display: flex;
+    align-items: center;
+ 
+   
+}
+.middle-section{
+    
+    flex: 1;
+    max-width: 500px;
+    margin-left: 70px;
+    margin-right: 40px;
+    align-items: center;
+    display: flex;
+
+
+}
+.right-section{
+   margin-right: 20px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+   
+}
+.search-button{
+    height: 40px;
+    width: 60px;
+}
+.voice-button{
+    height: 40px;
+    width: 40px;
+}
+.search-bar{
+    flex: 1;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid rgb(227, 219, 219);
+    border-radius: 2px;
+    width: 0%;
+    
+    box-shadow: inset 1px 2px 5px rgba(0 0 0 0.05);
+} 
+.search-bar::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.search-icon{
+    height: 24px;
+    margin-top: 4px;
+    background-color:transparent ;
+}
+.search-button{
+    margin-right: 10px;
+    margin-left: -1px;
+    border: 1px solid rgba(192,192,192)
+}
+.voice-button{
+    border-radius: 50%;
+    border: 1px solid rgba(192,192,192);
+    border-style: none;
+}
+.voice-icon{
+    height: 24px;
+    width: 24px;
+}
+.upload-icon{
+    height: 24px;
+}
+.youtube-apps-icon{
+    height: 24px;
+}
+.notification-icon{
+    height: 24px;
+}
+.notification-icon-container{
+    position: relative;
+}
+.notification-count{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(157, 28, 28);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-radius: 12px;
+    padding: 2px 6px;
+}
+.pictures{
+    height: 32px;
+    border-radius: 50%;
+}

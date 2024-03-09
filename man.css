@@ -1,0 +1,84 @@
+<style>
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Hello {
+
+    font-size: 18px;
+    font-weight: 700;
+    width: 300px;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+    box-sizing: border-box;
+    margin-bottom: 2px;
+    margin-block-end: 2px;
+    width: 284px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+
+
+    Line height: 20px;
+}
+
+.Hi {
+  
+    font-size: 14px;
+    color: #606060;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 16px;
+    margin-block-end: 16px;
+    margin-top: 0px;
+    
+
+}
+
+.yahoo {
+    
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.haha {
+    
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    font-weight: 400;
+    height: 60px;
+    width: 280px;
+    margin-bottom: 50px;
+}
+.Man {
+text-align: center;
+margin-top: 20px;
+background-color: red;
+padding: 16px;
+font-size: 14px;
+margin-left: 8px;
+margin-right: 8px;
+margin-bottom: 16px;
+color: whitesmoke;
+}
+.Raj {
+    color: red;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+.gurung {
+    cursor: pointer;
+
+}
+.gurung:hover {
+    text-decoration: underline; 
+
+
+}
+
+
+</style>

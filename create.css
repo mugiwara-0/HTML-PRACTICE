@@ -1,0 +1,41 @@
+.hello{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    padding: 5px 10px;
+}
+.sun{
+    color: aliceblue;
+    font-weight: bold;
+    width: 200px;
+}
+button{
+    background-color: purple;
+    border: 1px white solid;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yahoo{
+    border-radius: 20px;
+    width: 100%;
+    max-width: 700px;
+    padding-left:20px;
+    padding-top:6px;
+    padding-bottom: 6px;
+   
+    
+  
+}
+.tue{
+    flex: 1;
+    padding-top: 10px;
+}
+.wed{
+ padding-top: 6px;
+ margin-left: 60px;
+}

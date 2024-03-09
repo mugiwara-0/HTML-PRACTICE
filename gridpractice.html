@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GridPracticet</title>
+    <style>
+        .hello{
+            display: grid;
+            grid-template-columns: 200px 75px;
+            margin-bottom: 30px;
+        }
+        .sun{
+            background-color: skyblue;
+
+        }
+        .mon{
+            background-color: pink;
+        }
+        .hi{
+            display: grid;
+            grid-template-columns: 50px 1fr  75px;
+            margin-bottom: 30px;
+
+        }
+       .yahoo{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+    </style>
+</head>
+<body>
+    <div class="hello">
+        <p class="sun">200px</p>
+        <p class="mon">75px</p>
+
+    </div>
+    <div class="hi">
+        <div class="sun">co11</div>
+        <div class="mon">col12</div>
+        <div class="sun">col13</div>
+    </div>
+    <div class="yahoo">
+        <div class="mon">co11</div>
+        <div class="mon">co12</div>
+        <div class="mon">co13</div>
+        <div class="mon">col14</div>
+        <div class="mon">co11</div>
+        <div class="mon">co12</div>
+        <div class="mon">co13</div>
+        <div class="mon">col14</div>
+    </div>
+    
+</body>
+</html>

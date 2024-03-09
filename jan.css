@@ -1,0 +1,25 @@
+<style>
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .Sun {
+            font-size: 40px;
+            font-weight: bold;
+            padding-bottom: 0px;
+            text-align: center;
+        }
+        .Mon {
+            color: rgb(63, 63, 63);
+            padding-top: 0PX;
+            text-align: center;
+        }
+        .Tue {
+            cursor: pointer;
+        }
+        .Tue:hover{
+            text-decoration: underline;
+            opacity: 0.8;
+
+        }
+    </style>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio</title>
+</head>
+
+<body>
+    <h1>Form for the trip to Canada</h1>
+    <caption> Personal details</caption>
+    <form action="form.php">
+        Name: <input type="text" placeholder="enter your full name">
+    </form>
+    <form action="form.php">
+        Age:  <input type="text" placeholder="enter your age">
+    </form>
+    <form action="form.php">
+        Nationality: <input type="text" placeholder="enter your nationality">
+    </form>
+    <br>
+    <p>Gender</p>
+
+    <label for="Hello">
+        <input type="radio" value="Hello" name="section" id="Hello">Male
+    </label>
+    <label for="Hi">
+        <input type="radio" value="Hi" name="section" id="Hi">Female
+    </label>
+    <br>
+    <p> Are all the information correct on above form</p>
+    <label for="Good">
+        <input type="radio" value="Good" name="morning" id="Good"> yes
+
+    </label>
+    <label for="Bad">
+        <input type="radio" value="Bad" name="morning" id="Bad">No
+    </label>
+<br>
+<label for="something">
+    <input type="radio" value="HAHAHA" name="nothing" id="something"> Section a 
+</label>
+<label for="everything">
+    <input type="radio" value="OHHHHH" name="nothing" id="everything"> Section b
+</label>
+<label for="abcd">
+    <input type="radio" value="asnsdn" name="nothing" id="abcd"> section c
+</label>
+<input type="checkbox" name="canteen" id="foodcanteen" class="red" name="canteen">  
+<label for="foodcanteen"> Want some food</label>
+<br>
+<textarea name="explain" id="explain" cols="50" rows="20" placeholder="explain why you wana join our guild"></textarea>
+</body>
+
+</html>
